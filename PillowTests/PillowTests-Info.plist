@@ -16,6 +16,21 @@
 	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>FacebookAppID</key>
+	<string>293592754179573</string>
+	<key>FacebookDisplayName</key>
+	<string>Pillow</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb293592754179573</string>
+			</array>
+			<key>CFBundleURLName</key>
+			<string></string>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 </dict>

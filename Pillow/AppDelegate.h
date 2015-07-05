@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ParseLoginViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, UIPageViewControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) NSMutableData *profilePictureData;
+
+- (void)presentLoginControllerAnimated:(BOOL)animated;
 
 @end
